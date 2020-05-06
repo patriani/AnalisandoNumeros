@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel = "stylesheet" type = "text/css" href = "./css/main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analisando Números</title>
+</head>
+<body>
+    <!-- Em projetos futuros fazer divisão do header, section, footer para melhor posicionamento e independência-->
+    <div class = "container">
+        <h2 id = "titulo">Analisando Números</h2>
+        <div class = "box">
+            <p id = "txt1" >Número ( entre 1 e 100 ):</p>
+            <input type="number" id="insert">
+            <input type="button" value="Enter" id = "bt" onclick="enter()">
+            <!--dentro do select poderiam ter options pre estabelecidas <option> [...] </option> (são inseridas pelo js conforme o usuário adiciona valores)-->
+            <div class = "content">     
+                <select name="lista" size = "6" id="lista"></select> <!--size representa a quantidade de elementos no select para que o scroll seja dispensado-->
+                <!--br deixa o botão embaixo da select list-->
+                <br><input type="button" value="Finalizar" onclick = "finalizar()">
+            </div>
+            <div id = "finalizado">
+
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="./js/pl.js"></script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+body{
+
+    margin: 0px;
+
+    /*testar com :
+       - background: rgb(70,142,236);
+       - font: normal pt arial;
+    */
+
+}
+#titulo{
+    margin-top: -345px;
+    margin-bottom: 0px;
+    position: relative;
+    font-family: fantasy cursive ;
+}
+.container{
+    width: 100vw; 
+    height: 100vh;
+    background: cyan;
+    display: flex;/* torna flexível o container e seus itens */
+    flex-direction: row; /* define como os itens flexíveis são colocados no contêiner flexível, definindo o eixo principal e a direção -- default*/
+    justify-content: center; /*se refere às divs internas*/
+    align-items: center;
+    text-align: center;
+}
+.box{
+    margin-left: -264px;
+    background: #fff;
+    width: 500px; /*Tornar o bloco uniforme*/
+    height: 250px;
+    text-align: center;
+    border-radius: 7%;
+}
+p#txt1{
+    margin-top: 10px;
+    float: left;
+    margin-left: 20px;
+}
+#insert{
+    margin-top: 10px;
+    margin-left: -65px;
+    width: 37%;
+}
+.content{
+    margin-top: 30px;
+    margin-left: -300px;
+}
+select#lista{
+    width: 19%;
+    height: 100px;
+    margin-left: 80px;
+}
+input#fin{
+    margin-top: 10px;
+}
+div#finalizado{
+    margin-top: 120px;
+    background: whitesmoke;
+    text-align: center;
+    border-radius: 15%;
+}
